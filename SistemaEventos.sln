@@ -5,11 +5,13 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.SistemaEventos", "SistemaEventos\1.SistemaEventos.csproj", "{7BD2D8C1-107E-442C-847C-6ADA5083977B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.DAL", "DAL\3.DAL.csproj", "{695B784E-DF60-4964-9F59-B913FD080EB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.DAL", "DAL\3.DAL.csproj", "{695B784E-DF60-4964-9F59-B913FD080EB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.BLL", "BLL\2.BLL.csproj", "{D4B9DF41-F248-4D8B-9ECD-55569684C189}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.BLL", "BLL\2.BLL.csproj", "{D4B9DF41-F248-4D8B-9ECD-55569684C189}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Transversal", "Transversal\4.Transversal.csproj", "{FDE61433-7272-43B7-AE9A-8DFD812405E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.Transversal", "Transversal\4.Transversal.csproj", "{FDE61433-7272-43B7-AE9A-8DFD812405E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.PruebasUnitarias", "PruebasUnitarias\5.PruebasUnitarias.csproj", "{E87F3FA4-4C68-43D7-A4AE-E2C1C5BDA7EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{FDE61433-7272-43B7-AE9A-8DFD812405E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDE61433-7272-43B7-AE9A-8DFD812405E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDE61433-7272-43B7-AE9A-8DFD812405E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E87F3FA4-4C68-43D7-A4AE-E2C1C5BDA7EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E87F3FA4-4C68-43D7-A4AE-E2C1C5BDA7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E87F3FA4-4C68-43D7-A4AE-E2C1C5BDA7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E87F3FA4-4C68-43D7-A4AE-E2C1C5BDA7EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
