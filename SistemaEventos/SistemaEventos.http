@@ -1,0 +1,6 @@
+@SistemaEventos_HostAddress = http://localhost:5268
+
+GET {{SistemaEventos_HostAddress}}/sistemaeventos/
+Accept: application/json
+
+###
