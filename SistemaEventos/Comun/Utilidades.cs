@@ -36,6 +36,7 @@ namespace SistemaEventos.Comun
 
         public string GenerarJWT(Usuario modelo)
         {
+            //información del usuario
             var userClaims = new[]
             {
                 new Claim(ClaimTypes.NameIdentifier, modelo.IdUsuario.ToString()),
